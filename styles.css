@@ -1,0 +1,103 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F7F5F2;
+    color: #333;
+  }
+  
+  header {
+    background-color: #D8C3A5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+  }
+  
+  section {
+    padding: 40px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .boton-reserva {
+    display: inline-block;
+    background-color: #9E7E56;
+    color: #FFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .boton-reserva:hover {
+    background-color: #785B3B;
+  }
+  
+  .plato {
+    margin-bottom: 40px;
+  }
+  
+  h3 {
+    color: #333;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="date"],
+  form input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #CCC;
+  }
+  
+  form input[type="submit"] {
+    display: inline-block;
+    background-color: #9E7E56;
+    color: #FFF;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #785B3B;
+  }
+  

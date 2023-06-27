@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menú del Restaurante</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="script.js"></script>
+  <header>
+    <h1>Bienvenido al Restaurante Delicioso</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#menu">Menú</a></li>
+        <li><a href="#reservas">Reservas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="inicio">
+    <h2>Disfruta de una experiencia culinaria excepcional</h2>
+    <p>En el Restaurante Delicioso ofrecemos platos exquisitos preparados con ingredientes frescos y de alta calidad. Ven y descubre nuestro menú variado que combina sabores únicos con una presentación elegante.</p>
+    <a href="#reservas" class="boton-reserva">Reserva ahora</a>
+  </section>
+  
+  <section id="menu">
+    <h2>Nuestro Menú</h2>
+    <div class="plato">
+      <h3>Entradas</h3>
+      <ul>
+        <li>Carpaccio de res</li>
+        <li>Ensalada César</li>
+        <li>Croquetas caseras</li>
+      </ul>
+    </div>
+    <div class="plato">
+      <h3>Platos Principales</h3>
+      <ul>
+        <li>Bife de Chorizo</li>
+        <li>Salmón a la parrilla</li>
+        <li>Risotto de hongos</li>
+      </ul>
+    </div>
+    <div class="plato">
+      <h3>Postres</h3>
+      <ul>
+        <li>Tarta de manzana</li>
+        <li>Crème brûlée</li>
+        <li>Helado de vainilla</li>
+      </ul>
+    </div>
+  </section>
+  
+  <section id="reservas">
+    <h2>Reserva una mesa</h2>
+    <p>¡Haz tu reserva ahora para disfrutar de una experiencia culinaria inolvidable! Llena el siguiente formulario y nos pondremos en contacto contigo para confirmar tu reserva.</p>
+    <form action="enviar_reserva.php" method="POST">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="fecha">Fecha:</label>
+      <input type="date" id="fecha" name="fecha" required>
+      <label for="hora">Hora:</label>
+      <input type="time" id="hora" name="hora" required>
+      <input type="submit" value="Enviar
